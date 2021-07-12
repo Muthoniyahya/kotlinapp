@@ -38,6 +38,7 @@ class Signupactivity : AppCompatActivity() {
         btnbutton.setOnClickListener {
            var Back=Intent(baseContext,MainActivity::class.java)
             startActivity(Back)
+
         }
     }
 }
